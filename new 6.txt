@@ -1,0 +1,10 @@
+Sentiment analysis
+Learn about the sentiment analysis offering for the Speechmatics Batch API
+Speechmatics enables you to understand the sentiment of what was spoken in your audio. With just a single API call, you can quickly transcribe and extract the sentiment, either positive, negative or neutral to quickly detect areas of conversation to analyse further.
+
+curl --location 'http://127.0.0.1:5000/transcribe' \
+--form 'file=@"/C:/Users/jasmine/Downloads/speechmatics/00PDgU_200.wav"'
+
+
+
+https://docs.speechmatics.com/speech-to-text/batch/quickstart
